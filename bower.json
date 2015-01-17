@@ -8,15 +8,13 @@
     "rsync",
     "assets"
   ],
-  "authors": [
-    "Michael Reiner <mreiner77@gmail.com> (http://mreiner.me)"
-  ],
+  "authors": {
+    "name": "Michael Reiner",
+    "email": "mreiner77@gmail.com",
+    "homepage": "http://mreiner.me"
+  },
   "license": "MIT",
   "homepage": "http://mreiner.me",
-  "repository": [
-    "type": "git",
-    "url": "git@github.com:radarseven/getassets.git"
-  ]
   "ignore": [
     "**/.*",
     "node_modules",
