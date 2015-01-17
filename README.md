@@ -1,4 +1,4 @@
-# rUNsync
+# getAssets
 
 A super simple bash script using `rsync` to sync from a remote source to a local destination. My use case is to sync assets (files and images) uploaded on a remote server (say, from a CMS) down to a local copy, where they are ignored in version control.
 
@@ -7,16 +7,22 @@ A super simple bash script using `rsync` to sync from a remote source to a local
 ### Bower
 
 * Run `bower install getassets` in your project directory.
-* Make it executable, run `chmod +x getassets.sh`
+* `cd` into `bower_components` and run `init`
+* Enter the directory you would like to install the `getassets.sh` script to. *Note: This can be a relative path from `bower_components`, such as `../` to install one diretory up the tree.*
 
 ### Manual
 
-1. Move the `getassets.sh` into your project. I typically put it in the root of the project.
-2. There are (3) parameters that need to be set near the top of the file:
-	`SSHHOST`: The SSH connection to use, i.e. `root@10.0.0.1`
-	`SOURCEDIR`: The full path on the server to sync from.
-	`DESTDIR`: THe full local path to sync to.
-3. Make the script executable, run `chmod +x ./getassets.sh` in your terminal.
+* Download and move the `getassets.sh` into your project. I typically put it in the root of the project.
+
+## Configuration
+
+There are (3) parameters that need to be set near the top of the file:
+
+1. `SSHHOST` : The SSH connection to use, i.e. `root@10.0.0.1`
+2. `SOURCEDIR` : The full path on the server to sync from.
+3. `DESTDIR` : THe full local path to sync to.
+
+Make the script executable, run `chmod +x ./getassets.sh` in your terminal.
 
 ## Running the Script
 

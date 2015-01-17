@@ -1,0 +1,21 @@
+#!/usr/bin/env sh
+
+# Current working directory
+CWD=$(pwd)
+
+echo "Exceuting script from: ${CWD}"
+
+echo "Enter the path to where you would like the getassets script installed (note, this can be relative):"
+read TARGET
+
+# Change to target directory
+cd ${TARGET}
+
+# Copy over the script
+cp "${CWD}/getassets.sh" "./getassets.sh"
+
+# Make it executable
+chmod +x "./getassets.sh"
+
+# Wrap up
+echo "All set!"
