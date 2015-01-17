@@ -4,6 +4,13 @@ A super simple bash script using `rsync` to sync from a remote source to a local
 
 ## Installation
 
+### Bower
+
+* Run `bower install getassets` in your project directory.
+* Make it executable, run `chmod +x getassets.sh`
+
+### Manual
+
 1. Move the `getassets.sh` into your project. I typically put it in the root of the project.
 2. There are (3) parameters that need to be set near the top of the file:
 	`SSHHOST`: The SSH connection to use, i.e. `root@10.0.0.1`
