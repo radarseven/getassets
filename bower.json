@@ -1,6 +1,6 @@
 {
   "name": "getassets",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A super simple bash script using rsync to sync from a remote source to a local destination.",
   "main": "getassets.sh",
   "keywords": [
