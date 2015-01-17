@@ -1,0 +1,27 @@
+{
+  "name": "getassets",
+  "version": "0.1.0",
+  "description": "A super simple bash script using `rsync` to sync from a remote source to a local destination.",
+  "main": "getassets.sh",
+  "keywords": [
+    "sync",
+    "rsync",
+    "assets"
+  ],
+  "authors": [
+    "Michael Reiner <mreiner77@gmail.com> (http://mreiner.me)"
+  ],
+  "license": "MIT",
+  "homepage": "http://mreiner.me",
+  "repository": [
+    "type": "git",
+    "url": "git@github.com:radarseven/getassets.git"
+  ]
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
